@@ -1,0 +1,147 @@
+{
+  "profiles": {
+    "profile": "BMO.md",
+    "profileFolderPath": "BMO/Profiles",
+    "lastLoadedChatHistoryPath": null,
+    "lastLoadedChatHistory": [
+      null
+    ]
+  },
+  "general": {
+    "model": "gemma:latest",
+    "system_role": "You are a helpful assistant.",
+    "max_tokens": "-2",
+    "temperature": "0.40",
+    "enableReferenceCurrentNote": true
+  },
+  "appearance": {
+    "userName": "YOU",
+    "chatbotName": "BMO",
+    "chatbotContainerBackgroundColor": "--background-secondary",
+    "messageContainerBackgroundColor": "--background-secondary",
+    "userMessageFontColor": "--text-normal",
+    "userMessageBackgroundColor": "--background-primary",
+    "botMessageFontColor": "--text-normal",
+    "botMessageBackgroundColor": "--background-secondary",
+    "chatBoxFontColor": "--text-normal",
+    "chatBoxBackgroundColor": "--interactive-accent",
+    "enableHeader": true,
+    "enableScrollBar": false,
+    "bmoGenerateBackgroundColor": "#0c0a12",
+    "bmoGenerateFontColor": "--text-normal"
+  },
+  "prompts": {
+    "prompt": "[[Memoria-Gemini-agente]].md.md",
+    "promptFolderPath": "BMO/Prompts"
+  },
+  "editor": {
+    "systen_role": "You are a helpful assistant."
+  },
+  "chatHistory": {
+    "chatHistoryPath": "BMO/History",
+    "templateFilePath": "",
+    "allowRenameNoteTitle": false
+  },
+  "OllamaConnection": {
+    "RESTAPIURL": "http://localhost:11434",
+    "enableStream": true,
+    "ollamaParameters": {
+      "mirostat": "0",
+      "mirostat_eta": "0.10",
+      "mirostat_tau": "5.00",
+      "num_ctx": "2048",
+      "num_gqa": "",
+      "num_thread": "",
+      "repeat_last_n": "64",
+      "repeat_penalty": "1.10",
+      "seed": "",
+      "stop": [],
+      "tfs_z": "1.00",
+      "top_k": "40",
+      "top_p": "0.90",
+      "min_p": "0.00",
+      "keep_alive": ""
+    },
+    "ollamaModels": [
+      "gemma:latest",
+      "llama3.2:latest"
+    ]
+  },
+  "RESTAPIURLConnection": {
+    "APIKey": "AIzaSyAkDxwPwb7XtiHfS3I34wei_p518LX3IBQ",
+    "RESTAPIURL": "",
+    "enableStream": false,
+    "RESTAPIURLModels": []
+  },
+  "APIConnections": {
+    "anthropic": {
+      "APIKey": "",
+      "anthropicModels": []
+    },
+    "googleGemini": {
+      "APIKey": "AIzaSyAkDxwPwb7XtiHfS3I34wei_p518LX3IBQ",
+      "enableStream": true,
+      "geminiModels": [
+        "models/gemini-2.5-flash",
+        "models/gemini-2.5-pro",
+        "models/gemini-2.0-flash",
+        "models/gemini-2.0-flash-001",
+        "models/gemini-2.0-flash-lite-001",
+        "models/gemini-2.0-flash-lite",
+        "models/gemini-2.5-flash-preview-tts",
+        "models/gemini-2.5-pro-preview-tts",
+        "models/gemini-flash-latest",
+        "models/gemini-flash-lite-latest",
+        "models/gemini-pro-latest",
+        "models/gemini-2.5-flash-lite",
+        "models/gemini-2.5-flash-image",
+        "models/gemini-3-pro-preview",
+        "models/gemini-3-flash-preview",
+        "models/gemini-3.1-pro-preview",
+        "models/gemini-3.1-pro-preview-customtools",
+        "models/gemini-3.1-flash-lite-preview",
+        "models/gemini-3-pro-image-preview",
+        "models/gemini-3.1-flash-image-preview",
+        "models/gemini-robotics-er-1.5-preview",
+        "models/gemini-2.5-computer-use-preview-10-2025",
+        "models/gemini-embedding-001",
+        "models/gemini-embedding-2-preview",
+        "models/gemini-2.5-flash-native-audio-latest",
+        "models/gemini-2.5-flash-native-audio-preview-09-2025",
+        "models/gemini-2.5-flash-native-audio-preview-12-2025",
+        "models/gemini-3.1-flash-live-preview"
+      ]
+    },
+    "mistral": {
+      "APIKey": "",
+      "enableStream": false,
+      "mistralModels": []
+    },
+    "openAI": {
+      "APIKey": "",
+      "openAIBaseUrl": "https://api.openai.com/v1",
+      "enableStream": true,
+      "openAIBaseModels": []
+    },
+    "openRouter": {
+      "APIKey": "",
+      "enableStream": false,
+      "openRouterModels": []
+    }
+  },
+  "toggleGeneralSettings": true,
+  "toggleAppearanceSettings": false,
+  "togglePromptSettings": true,
+  "toggleEditorSettings": false,
+  "toggleChatHistorySettings": false,
+  "toggleProfileSettings": false,
+  "toggleAPIConnectionSettings": true,
+  "toggleOpenAISettings": false,
+  "toggleMistralSettings": false,
+  "toggleGoogleGeminiSettings": false,
+  "toggleAnthropicSettings": false,
+  "toggleRESTAPIURLSettings": false,
+  "toggleOpenRouterSettings": false,
+  "toggleOllamaSettings": false,
+  "toggleAdvancedSettings": false
+}
